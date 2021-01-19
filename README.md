@@ -2,11 +2,13 @@
 # Sentiment Analysis
 Created an 'opinion mining' program that categories the opinion of a user on Twitter by analyzing the diction of their tweets.
 <br><br>
+![sample analysis](./screenshots/use_case.png)
 This project implements an "opinion miner", a problem set from the HarvardX CS50 course, provides the foundation code for this project. For more information, click [here](https://docs.cs50.net/problems/sentiments/sentiments.html).
 ## Background 
 _Sentiment Analysis_ is a 3 part project that contains the following programs:
  - **smile** categorizes a single vocable as a positive or negative word.
  - **tweets** categorizes the recent tweets of a Twitter user as positive or negative.
+ ![sample case](./screenshots/tweets_sample.png)
  - Other files encapsulate the implementation of a website that generates a pie chat for categorizing a user's tweets as positive, neutral, or negative.
 <br><br>
 The positive and negative lists of words, **positive-words.txt** and **negative-words.txt** respectively, that are used as standards for referencing in this project were originally categorized by professors at the University of Illinois, Chicago, USA.  
