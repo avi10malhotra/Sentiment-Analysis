@@ -36,6 +36,10 @@ def chart(positive, negative, neutral):
 
 def get_user_timeline(screen_name, count=200):
     """Return list of most recent tweets posted by screen_name."""
+    
+    # Note: the user may directly export the needed API keys to the terminal or paste them here
+    os.environ["API_KEY"] = "{insert API key here}"
+    os.environ["API_SECRET"] = "{insert API secret here}"
 
     # ensure count is valid
     if count < 1 or count > 200:
